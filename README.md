@@ -7,7 +7,6 @@ This is a PHP class named `ModuleInstaller` that provides functionality for inst
 1. First, create an instance of the `ModuleInstaller` class by passing an array containing the necessary module definition:
 
 ```php
-// Replace 'YOUR MODULE NAME' with the actual name of your module
 $moduleDefinition = [
     'tabClassName' => ['MainTabClassName' => 'Main Tab Name'],
     'hookName' => ['hookName1', 'hookName2']
